@@ -12,7 +12,7 @@ namespace Office365_Interaction_Winforms
         static readonly Uri DiscoveryServiceEndpointUri = new Uri("https://api.office.com/discovery/v1.0/me/");
         static readonly string ClientId = ConfigurationManager.AppSettings["ida:ClientId"].ToString();
         static string Domain = ConfigurationManager.AppSettings["ida:Domain"].ToString();
-        static readonly Uri RedirectUri = new Uri("urn:ietf:wg:oauth:2.0:oob");
+        static readonly Uri RedirectUri = new Uri("Your Redirect URI");
 
         static string TenantID = String.Empty;
         static string _authority = String.Empty;
